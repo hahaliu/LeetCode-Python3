@@ -20,8 +20,14 @@
 # ……
 
 
+# class Solution:
+#     def isPowerOfTwo(self, n):
+#         # return n > 0 and (n & (n-1)) == 0
+#         # 或者
+#         return n > 0 and (n & ~-n) == 0
+
+
+# 周辉礼：转成2进制，1的个数是否为1
 class Solution:
     def isPowerOfTwo(self, n):
-        # return n > 0 and (n & (n-1)) == 0
-        # 或者
-        return n > 0 and (n & ~-n) == 0
+        return bin(n).count('1') and n > 0

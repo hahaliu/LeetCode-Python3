@@ -1,3 +1,20 @@
+# class Solution:
+#     def twoSum(self, nums, target):
+#         """
+#         :type nums: List[int]
+#         :type target: int
+#         :rtype: List[int]
+#         """
+
+#         dicts = {}
+#         for index, value in enumerate(nums):
+#             if target - value in dicts:
+#                 return [dicts.get(target-value), index]
+#             dicts[value] = index
+
+# 周辉礼的解法：
+
+
 class Solution:
     def twoSum(self, nums, target):
         """
@@ -5,26 +22,10 @@ class Solution:
         :type target: int
         :rtype: List[int]
         """
-
-        dicts = {}
         for index, value in enumerate(nums):
-            if target - value in dicts:
-                return [dicts.get(target-value), index]
-            dicts[value] = index
-
-
-# class Solution(object):
-#     def twoSum(self, nums, target):
-#         """
-#         :type nums: List[int]
-#         :type target: int
-#         :rtype: List[int]
-#         """
-#         dicts = {}
-#         for k, v in enumerate(nums):
-#             if target - v in dicts:
-#                 return [dicts.get(target-v), k]
-#             dicts[v] = k
+            if target - value in nums:
+                if index != nums.index(target - value):
+                    return index, nums.index(target - value)
 
 
 if __name__ == '__main__':
