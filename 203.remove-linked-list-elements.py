@@ -4,6 +4,10 @@ class ListNode:
         self.val = x
         self.next = None
 
+    def __repr__(self):
+        if self:
+            return "{} -> {}".format(self.val, self.next)
+
 
 class Solution:
     def removeElements(self, head, val):
@@ -15,14 +19,15 @@ class Solution:
         dummy = ListNode(float('-inf'))
         dummy.next = head
 
-        ret, current = dummy, dummy.next
+        ret, current = dummy, head
 
         while current:
             if current.val == val:
                 ret.next = current.next
+                print(ret)
             else:
                 ret = current
-        current = current.next
+            current = current.next
 
         return dummy.next
 
