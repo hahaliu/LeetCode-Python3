@@ -1,18 +1,17 @@
 class Solution:
-    def searchInsert(self, nums, target):
+    def removeElement(self, nums, val):
         """
         :type nums: List[int]
-        :type target: int
+        :type val: int
         :rtype: int
         """
-        if(target in nums):
-            return nums.index(target)
+        index = ret = 0
+        while index < len(nums):
+            if (nums[index] != val):
+                nums[ret] = nums[index]
+                ret += 1
+            index += 1
+        return ret
 
-        for item in nums:
-            if(item >= target):
-                return nums.index(item)
 
-        return len(nums)
-
-
-print(Solution().searchInsert([1, 3, 5, 6], 2))
+print(Solution().searchInsert([0, 1, 2, 2, 3, 0, 4, 2], 2))

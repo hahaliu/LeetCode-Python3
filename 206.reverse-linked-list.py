@@ -19,7 +19,7 @@ class Solution:
         count = 1
         while head:
             dummy.next, head.next, head = head, dummy.next, head.next
-            #print(count, head, "|||", dummy)
+            # print("a", head, "|||", dummy)
             count += 1
         return dummy.next
 
@@ -27,8 +27,8 @@ class Solution:
 l = ListNode(1)
 l.next = ListNode(2)
 l.next.next = ListNode(6)
-l.next.next.next = ListNode(3)
-l.next.next.next.next = ListNode(4)
-l.next.next.next.next.next = ListNode(5)
-l.next.next.next.next.next.next = ListNode(6)
+# l.next.next.next = ListNode(3)
+# l.next.next.next.next = ListNode(4)
+# l.next.next.next.next.next = ListNode(5)
+# l.next.next.next.next.next.next = ListNode(6)
 print(Solution().reverseList(l))
