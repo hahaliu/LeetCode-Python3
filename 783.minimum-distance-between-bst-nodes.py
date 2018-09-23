@@ -26,6 +26,6 @@ class Solution(object):
             return
         self.dfs(node.left)
         self.result = min(self.result, node.val-self.prev)
-        print(self.result)
+        # print(self.result)
         self.prev = node.val
         self.dfs(node.right)
