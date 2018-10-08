@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 class Solution:
     def merge(self, nums1, m, nums2, n):
         """

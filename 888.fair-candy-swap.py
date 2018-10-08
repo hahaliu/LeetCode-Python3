@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 
 # 我的最初解法：超出时间限制
 

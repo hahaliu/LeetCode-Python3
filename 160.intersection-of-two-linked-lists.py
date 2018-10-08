@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 class ListNode:
     def __init__(self, x):
         self.val = x

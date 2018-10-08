@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 # 旧的解题思路：简单，超时
 
 

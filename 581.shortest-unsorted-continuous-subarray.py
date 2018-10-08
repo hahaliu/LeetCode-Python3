@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 # 我的思路：与升序后的数组进行比较
 class Solution:
     def findUnsortedSubarray(self, nums):

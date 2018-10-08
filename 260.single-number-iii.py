@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 # 我的思路：使用collections.Counter统计
 
 import collections

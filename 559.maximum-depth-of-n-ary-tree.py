@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 # 我的思路：子树最大+1（没有完全写出来，参考别人的代码）
 # Definition for a Node.
 

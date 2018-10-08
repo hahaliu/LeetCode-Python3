@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 # 我的思路：先转换为列表，然后分配长度进行切片
 
 # Definition for singly-linked list.

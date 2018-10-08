@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 # 我的做法：翻转字符串+不翻转合并在一起
 # class Solution:
 #     def reverseStr(self, s, k):

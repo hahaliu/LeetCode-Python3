@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 
 # 我的写法：太复杂
 # class Solution:

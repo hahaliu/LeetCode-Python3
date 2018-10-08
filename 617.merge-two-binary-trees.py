@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 
 # 我的思路，左右是否为None分开进行讨论
 # Definition for a binary tree node.

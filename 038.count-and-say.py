@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 # 别人的代码：
 class Solution(object):
     def countAndSay(self, n):

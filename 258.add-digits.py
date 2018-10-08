@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 
 # 数根：
 # https://en.wikipedia.org/wiki/Digital_root

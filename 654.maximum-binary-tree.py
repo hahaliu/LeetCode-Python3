@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 
 # 我的思路：先求max，然后分成左右，最后左右分别递归
 # Definition for a binary tree node.

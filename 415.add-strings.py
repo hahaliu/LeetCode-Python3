@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 # 我的代码也实现了，别人的代码更好一点
 
 # 别人的代码：

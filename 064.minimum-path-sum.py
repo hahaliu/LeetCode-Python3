@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 # 没做出来，思路不对
 # class Solution:
 #     def minPathSum(self, grid):

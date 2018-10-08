@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 
 # 我的方法：二进制统计1的个数（不合题目要求，但结果正确）
 # class Solution:

@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 # https://leetcode-cn.com/problems/add-two-numbers/description/
 
 # Definition for singly-linked list.

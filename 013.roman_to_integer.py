@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 class Solution(object):
 
     # 别人的代码：

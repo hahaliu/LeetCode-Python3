@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 # The isBadVersion API is already defined for you.
 # @param version, an integer
 # @return a bool

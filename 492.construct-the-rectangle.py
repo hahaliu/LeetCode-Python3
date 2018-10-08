@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 class Solution:
     def constructRectangle(self, area):
         """

@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 # 我的思路：先添加val，遍历children
 # Definition for a Node.
 

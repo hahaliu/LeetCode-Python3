@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 
 # 我的思路：左右子树的值情况分类，解法有问题，没通过
 # Definition for a binary tree node.

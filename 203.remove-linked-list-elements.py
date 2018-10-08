@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, x):

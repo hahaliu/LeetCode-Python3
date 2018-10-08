@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 
 # 没明白啥意思
 # Definition for singly-linked list.

@@ -1,3 +1,6 @@
+# ex2tron's blog:
+# http://ex2tron.wang
+
 # 做不出来
 # class Solution:
 #     def numberOfArithmeticSlices(self, A):
