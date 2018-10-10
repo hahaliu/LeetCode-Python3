@@ -4,6 +4,7 @@
 # 这题不会，
 #　参考别人解法
 # https://blog.csdn.net/asd136912/article/details/78987624
+# https://segmentfault.com/a/1190000003914228
 
 
 class Solution:
