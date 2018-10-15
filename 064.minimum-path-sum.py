@@ -15,7 +15,7 @@
 #             return sum(grid[0])
 #         if (m>1 and n==1):
 #             return sum(zip(*grid)[0])
-        
+
 #         minV = []
 #         # minV[0][0] = grid[0][0]
 #         # minV[0][1] = grid[0][1]
@@ -37,11 +37,15 @@
 #         return minV
 
 # 别人的代码：
+
+
 class Solution:
     def minPathSum(self, grid):
         sum = list(grid[0])
         for j in range(1, len(grid[0])):
             sum[j] = sum[j - 1] + grid[0][j]
+
+        # print(sum)
 
         for i in range(1, len(grid)):
             sum[0] += grid[i][0]
@@ -51,4 +55,5 @@ class Solution:
 
         return sum[-1]
 
-print(Solution().minPathSum([[1,3,4],[2,5,1]]))
+
+print(Solution().minPathSum([[1, 3, 4], [2, 5, 1]]))
